@@ -1,0 +1,23 @@
+{
+  "name": "reminder-node-app-V2",
+  "version": "1.0.0",
+  "description": "This is a better and snazzier version of Rminder App.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorh2002/reminder-node-app-V2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylorh2002/reminder-node-app-V2/issues"
+  },
+  "homepage": "https://github.com/taylorh2002/reminder-node-app-V2#readme",
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
+}
