@@ -11,14 +11,6 @@ const topLevelQuestion = [
     }
 ]
 
-/* const welcomeText = figlet.textSync("Notes App", {
-    font: 'Big',
-    horizontalLayout: 'default',
-    verticalLayout: 'default',
-    width: 80,
-    whitespaceBreak: true
-}); */
-
 const main = () => {
     console.log(chalk.green(figlet.textSync("Reminder App")));
     app();
@@ -65,10 +57,9 @@ const app = async () => {
         removeNote(answer.remove)
         app()
     }
-    else if (answers.options == "exit") {
+    else if (answers    .options == "exit") {
         console.log ("See ya soon")
     }
-}
+} 
 
-main();
-
+main(); 
